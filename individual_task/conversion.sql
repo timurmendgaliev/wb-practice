@@ -1,4 +1,4 @@
-select 
+SELECT
   platform,
   COUNT(DISTINCT id) as total_actions,
   COUNT(DISTINCT id) FILTER (WHERE profit > 0) AS successful_actions,
